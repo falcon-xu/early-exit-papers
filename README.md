@@ -21,11 +21,9 @@ A curated list of early exiting.
 
    *Yigitcan Kaya, Sanghyun Hong, and Tudor Dumitras.* [[pdf](http://proceedings.mlr.press/v97/kaya19a/kaya19a.pdf)] [[code](https://github.com/yigitcankaya/Shallow-Deep-Networks)]
 
-4. Improved Techniques for Training Adaptive Deep Networks. ICCV 19 ⭐
+4. Improved Techniques for Training Adaptive Deep Networks. ICCV 19 
 
    Hao Li, Hong Zhang, Xiaojuan Qi, Ruigang Yang, Gao Huang. [[pdf](https://arxiv.org/abs/1908.06294)] [[code](https://github.com/kalviny/IMTA)]
-
-   - 详细看下他的**training method**
 
 5. HAPI: Hardware-Aware Progressive Inference. ICCAD 2020
 
@@ -47,15 +45,15 @@ A curated list of early exiting.
 
    *Yue Wang et al.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9028245)]
 
-10. Learning to stop while learning to predict. ICML 2021⭐
+10. Learning to stop while learning to predict. ICML 2021
 
    *Xinshi Chen, Hanjun Dai, Yu Li, Xin Gao, Le Song, Le Song*  [[pdf](https://arxiv.org/abs/2006.05082)] [[code](https://github.com/xinshi-chen/l2stop)]
 
-11. Zero Time Waste: Recycling Predictions in Early Exit Neural Networks. NeurIPS 2021⭐
+11. Zero Time Waste: Recycling Predictions in Early Exit Neural Networks. NeurIPS 2021
 
     Maciej Wołczyk, Bartosz Wójcik, Klaudia Bałazy, Igor Podolak, Jacek Tabor, Marek Śmieja, Tomasz Trzciński [[pdf](https://arxiv.org/abs/2106.05409)] [[code](https://github.com/gmum/Zero-Time-Waste)]
 
-12. Self-Distillation Towards Efficient and Compact Neural Networks. TPAMI 2021⭐
+12. Self-Distillation Towards Efficient and Compact Neural Networks. TPAMI 2021
 
     *Linfeng Zhang , Chenglong Bao, Kaisheng Ma* [[pdf](https://ieeexplore.ieee.org/document/9381661/)] [[code](https://github.com/ArchipLab-LinfengZhang/pytorch-self-distillation-final)]
 
@@ -67,7 +65,7 @@ A curated list of early exiting.
 
     *Alexandros Kouris, Stylianos I. Venieris, Stefanos Laskaridis, and Nicholas D. Lane.* [[pdf](https://arxiv.org/pdf/2106.03527)]
 
-15. Meta-GF: Training Dynamic-Depth Neural Networks Harmoniously. ECCV 2022⭐
+15. Meta-GF: Training Dynamic-Depth Neural Networks Harmoniously. ECCV 2022
 
     *Yi Sun, Jian Li, Xin Xu*. [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-20083-0_41)] [[code](https://github.com/SYVAE/MetaGF)]
 
@@ -92,6 +90,12 @@ A curated list of early exiting.
 21. HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices.  MobiSys 2023.
 
     *Seunghyeok Jeon, Yonghun Choi , Yeonwoo Cho , and Hojung Cha* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3581791.3596845)]
+
+22. LGViT: Dynamic Early Exiting for Accelerating Vision Transformer. ACM MM 2023.
+
+    *Guanyu Xu, Jiawei Hao, Li Shen, Han Hu, Yong Luo, Hui Lin, Jialie Shen* [[pdf](https://arxiv.org/abs/2308.00255)] [code]
+
+
 
 
 
@@ -123,7 +127,7 @@ A curated list of early exiting.
 
    *Lu Hou, Zhiqi Huang, Lifeng Shang, Xin Jiang, Xiao Chen, Qun Liu.* [[pdf](https://arxiv.org/pdf/2004.04037.pdf)]
 
-7. A Global Past-Future Early Exit Method for Accelerating Inference of Pre-trained Language Models. NAACL 2021.⭐
+7. A Global Past-Future Early Exit Method for Accelerating Inference of Pre-trained Language Models. NAACL 2021.
 
    *Kaiyuan Liao, Yi Zhang, Xuancheng Ren, Qi Su, Xu Sun, Bin He.* [[pdf](https://aclanthology.org/2021.naacl-main.162.pdf)] [[code](https://github.com/lancopku/Early-Exit)]
 
@@ -135,11 +139,11 @@ A curated list of early exiting.
 
    *Ji Xin, Raphael Tang, Yaoliang Yu, Jimmy Lin.* [[pdf](https://aclanthology.org/2021.eacl-main.8.pdf)] [[code](https://github.com/castorini/berxit)]
 
-10. Accelerating BERT Inference for Sequence Labeling via Early-Exit. ACL 2021.⭐
+10. Accelerating BERT Inference for Sequence Labeling via Early-Exit. ACL 2021.
 
     *Xiaonan Li, Yunfan Shao, Tianxiang Sun, Hang Yan, Xipeng Qiu, Xuanjing Huang.* [[pdf](https://aclanthology.org/2021.acl-long.16.pdf)]
 
-11. LeeBERT: Learned Early Exit for BERT with Cross-Level Optimization. ACL 2021. ⭐
+11. LeeBERT: Learned Early Exit for BERT with Cross-Level Optimization. ACL 2021. 
 
     *Wei Zhu.* [[pdf](https://aclanthology.org/2021.acl-long.231.pdf)]
 
@@ -147,13 +151,9 @@ A curated list of early exiting.
 
     *Deming Ye, Yankai Lin, Yufei Huang, Maosong Sun.* [[pdf](https://aclanthology.org/2021.naacl-main.463.pdf)]
 
-    - token related
-
 13. EBERT: Efficient BERT Inference with Dynamic Structured Pruning. ACL Findings2021.
 
     *Zejian Liu, Fanrong Li, Gang Li, Jian Cheng.* [[pdf](https://aclanthology.org/2021.findings-acl.425.pdf)] [[code](https://github.com/zejiangp/EBERT)]
-
-    - pruning
 
 14. Early Exiting with Ensemble Internal Classifiers. Preprint May 2021.
 
@@ -167,7 +167,7 @@ A curated list of early exiting.
 
     *Lei Li, Yankai Lin, Deli Chen, Shuhuai Ren, Peng Li, Jie Zhou, Xu Sun.* [[pdf](https://arxiv.org/pdf/2012.14682.pdf)] [[code](https://github.com/lancopku/CascadeBERT)]
 
-17. Consistent Accelerated Inference via Confident Adaptive Transformers. EMNLP 2021.⭐
+17. Consistent Accelerated Inference via Confident Adaptive Transformers. EMNLP 2021.
 
     *Tal Schuster, Adam Fisch, Tommi Jaakkola, Regina Barzilay.* [[pdf](https://arxiv.org/pdf/2104.08803.pdf)] [[code](https://github.com/TalSchuster/CATs)]
 
@@ -179,8 +179,6 @@ A curated list of early exiting.
 
     *Xiangyang Liu*, Tianxiang Sun*, Junliang He, Lingling Wu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu.* [[pdf](https://arxiv.org/pdf/2110.07038.pdf)]
 
-    - 建立efficient transformer benchmark，并设计baseline，注意看看baseline，***[working]***
-
 20. PCEE-BERT: Accelerating BERT Inference via Patient and Confident Early Exiting, NAACL Findings 2022.
 
     *Zhen Zhang, Wei Zhu, Jinfan Zhang, Peng Wang, Rize Jin, Tae-Sun Chung.*  [[pdf](https://aclanthology.org/2022.findings-naacl.25/)] [[code](https://github.com/michael-wzhu/PCEE-BERT)]
@@ -189,11 +187,9 @@ A curated list of early exiting.
 
     *Alperen Görmez, Venkat R. Dasari, Erdem Koyuncu.* [[pdf](https://arxiv.org/abs/2103.01148v3)] [code]
 
-22. SkipBERT: Efficient Inference with Shallow Layer Skipping. ACL 2022⭐
+22. SkipBERT: Efficient Inference with Shallow Layer Skipping. ACL 2022
 
     Jue Wang, Ke Chen, Gang Chen, Lidan Shou, Julian McAuley [[pdf](https://aclanthology.org/2022.acl-long.503.pdf)] [[project](https://github.com/LorrinWWW/SkipBERT)]
-
-    - 存储(look up table) 代替 BERT 前面的几个层，+early exit
 
 23. Unsupervised Early Exit in DNNs with Multiple Exits. AI-ML systems 2022
 
@@ -223,7 +219,7 @@ A curated list of early exiting.
 
    *Yijin Liu, Fandong Meng, Jie Zhou, Yufeng Chen, Jinan Xu.* [[pdf](https://arxiv.org/pdf/2004.13542.pdf)]
 
-4. A Simple Hash-Based Early Exiting Approach For Language Understanding and Generation. Findings of ACL 2022.⭐
+4. A Simple Hash-Based Early Exiting Approach For Language Understanding and Generation. Findings of ACL 2022.
 
    *Tianxiang Sun, Xiangyang Liu, Wei Zhu, Zhichao Geng, Lingling Wu, Yilong He, Yuan Ni, Guotong Xie, Xuanjing Huang, Xipeng Qiu* [[pdf](https://arxiv.org/pdf/2203.01670.pdf)] [[code](https://github.com/txsun1997/HashEE)]
 
@@ -250,4 +246,8 @@ A curated list of early exiting.
 5. A Survey on Dynamic Neural Networks for Natural Language Processing. Journal of Mechanics of Continua and Mathematical Sciences 2022.
 
    *Canwen Xu, Julian McAuley.* [[pdf](https://arxiv.org/pdf/2202.07101.pdf)]
+
+
+
+## Acknowledgments
 
