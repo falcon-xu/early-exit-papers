@@ -1,4 +1,4 @@
-# Early Exiting
+# Early Exiting 
 A curated list of early exiting. 
 
 
@@ -21,7 +21,7 @@ A curated list of early exiting.
 
    *Yigitcan Kaya, Sanghyun Hong, and Tudor Dumitras.* [[pdf](http://proceedings.mlr.press/v97/kaya19a/kaya19a.pdf)] [[code](https://github.com/yigitcankaya/Shallow-Deep-Networks)]
 
-4. Improved Techniques for Training Adaptive Deep Networks. ICCV 19 
+4. Improved Techniques for Training Adaptive Deep Networks. ICCV 2019 
 
    Hao Li, Hong Zhang, Xiaojuan Qi, Ruigang Yang, Gao Huang. [[pdf](https://arxiv.org/abs/1908.06294)] [[code](https://github.com/kalviny/IMTA)]
 
@@ -46,8 +46,8 @@ A curated list of early exiting.
    *Yue Wang et al.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9028245)]
 
 10. Learning to stop while learning to predict. ICML 2021
-
-   *Xinshi Chen, Hanjun Dai, Yu Li, Xin Gao, Le Song, Le Song*  [[pdf](https://arxiv.org/abs/2006.05082)] [[code](https://github.com/xinshi-chen/l2stop)]
+   
+      *Xinshi Chen, Hanjun Dai, Yu Li, Xin Gao, Le Song, Le Song*  [[pdf](https://arxiv.org/abs/2006.05082)] [[code](https://github.com/xinshi-chen/l2stop)]
 
 11. Zero Time Waste: Recycling Predictions in Early Exit Neural Networks. NeurIPS 2021
 
@@ -83,15 +83,15 @@ A curated list of early exiting.
 
     *Shengkun Tang, Yaqing Wang, Zhenglun Kong, Tianchi Zhang, Yao Li, Caiwen Ding, Yanzhi Wang, Yi Liang, Dongkuan Xu* [[pdf](https://openaccess.thecvf.com/content/CVPR2023/papers/Tang_You_Need_Multiple_Exiting_Dynamic_Early_Exiting_for_Accelerating_Unified_CVPR_2023_paper.pdf)]
 
-20. Dynamic Perceiver for Efficient Visual Recognition. ICCV 2023.
+21. Dynamic Perceiver for Efficient Visual Recognition. ICCV 2023.
 
     *Yizeng Han, Dongchen Han, Zeyu Liu, Yulin Wang, Xuran Pan, Yifan Pu, Chao Deng, Junlan Feng, Shiji Song, Gao Huang* [[pdf](https://arxiv.org/pdf/2306.11248.pdf)] [[code](https://github.com/leaplabthu/dynamic_perceiver)]
 
-21. HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices.  MobiSys 2023.
+22. HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices.  MobiSys 2023.
 
     *Seunghyeok Jeon, Yonghun Choi , Yeonwoo Cho , and Hojung Cha* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3581791.3596845)]
 
-22. LGViT: Dynamic Early Exiting for Accelerating Vision Transformer. ACM MM 2023.
+23. LGViT: Dynamic Early Exiting for Accelerating Vision Transformer. ACM MM 2023.
 
     *Guanyu Xu, Jiawei Hao, Li Shen, Han Hu, Yong Luo, Hui Lin, Jialie Shen* [[pdf](https://arxiv.org/abs/2308.00255)] [code]
 
@@ -175,7 +175,7 @@ A curated list of early exiting.
 
     *Cristóbal Eyzaguirre, Felipe del Río, Vladimir Araujo, Álvaro Soto.* [[pdf](https://aclanthology.org/2022.nlppower-1.10/)]
 
-19. Towards Efficient NLP: A Standard Evaluation and A Strong Baseline. NAACL 2022.⭐
+19. Towards Efficient NLP: A Standard Evaluation and A Strong Baseline. NAACL 2022.
 
     *Xiangyang Liu*, Tianxiang Sun*, Junliang He, Lingling Wu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu.* [[pdf](https://arxiv.org/pdf/2110.07038.pdf)]
 
