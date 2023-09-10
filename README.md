@@ -251,3 +251,5 @@ A curated list of early exiting.
 
 ## Acknowledgments
 
+This repository is built upon [awesome-early-exiting](https://github.com/txsun1997/awesome-early-exiting). Thanks for the awesome project!
+
