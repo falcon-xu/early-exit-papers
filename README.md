@@ -5,8 +5,6 @@ A curated list of early exiting.
 
 ## Paper
 
-
-
 ### CV
 
 1. Conditional deep learning for energy-efficient and enhanced pattern recognition. DATE 2016
@@ -46,7 +44,7 @@ A curated list of early exiting.
    *Yue Wang et al.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9028245)]
 
 10. Learning to stop while learning to predict. ICML 2021
-   
+
       *Xinshi Chen, Hanjun Dai, Yu Li, Xin Gao, Le Song, Le Song*  [[pdf](https://arxiv.org/abs/2006.05082)] [[code](https://github.com/xinshi-chen/l2stop)]
 
 11. Zero Time Waste: Recycling Predictions in Early Exit Neural Networks. NeurIPS 2021
@@ -83,17 +81,25 @@ A curated list of early exiting.
 
     *Shengkun Tang, Yaqing Wang, Zhenglun Kong, Tianchi Zhang, Yao Li, Caiwen Ding, Yanzhi Wang, Yi Liang, Dongkuan Xu* [[pdf](https://openaccess.thecvf.com/content/CVPR2023/papers/Tang_You_Need_Multiple_Exiting_Dynamic_Early_Exiting_for_Accelerating_Unified_CVPR_2023_paper.pdf)]
 
-21. Dynamic Perceiver for Efficient Visual Recognition. ICCV 2023.
+20. Dynamic Perceiver for Efficient Visual Recognition. ICCV 2023.
 
     *Yizeng Han, Dongchen Han, Zeyu Liu, Yulin Wang, Xuran Pan, Yifan Pu, Chao Deng, Junlan Feng, Shiji Song, Gao Huang* [[pdf](https://arxiv.org/pdf/2306.11248.pdf)] [[code](https://github.com/leaplabthu/dynamic_perceiver)]
 
-22. HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices.  MobiSys 2023.
+21. HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices.  MobiSys 2023.
 
     *Seunghyeok Jeon, Yonghun Choi , Yeonwoo Cho , and Hojung Cha* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3581791.3596845)]
 
-23. LGViT: Dynamic Early Exiting for Accelerating Vision Transformer. ACM MM 2023.
+22. LGViT: Dynamic Early Exiting for Accelerating Vision Transformer. ACM MM 2023.
 
     *Guanyu Xu, Jiawei Hao, Li Shen, Han Hu, Yong Luo, Hui Lin, Jialie Shen* [[pdf](https://arxiv.org/abs/2308.00255)] [code]
+
+23. Boosted Dynamic Neural Networks. AAAI 2023.
+
+    *Haichao Yu, Haoxiang Li, Gang Hua, Gao Huang, Humphrey Shi* [[pdf](https://arxiv.org/abs/2211.16726)] [[code](https://github.com/SHI-Labs/Boosted-Dynamic-Networks)]
+
+24. Window-Based Early-Exit Cascades for Uncertainty Estimation: When Deep Ensembles are More Efficient than Single Models. ICCV 2023.
+
+    *Guoxuan Xia, Christos-Savvas Bouganis* [[pdf](https://arxiv.org/abs/2303.08010)] [[code](https://github.com/Guoxoug/window-early-exit)]
 
 
 
@@ -202,6 +208,10 @@ A curated list of early exiting.
 25. SmartBERT: A Promotion of Dynamic Early Exiting Mechanism for Accelerating. IJCAI 2023.
 
     *Boren Hu, Yun Zhu, Jiacheng Li, Siliang Tang.* [[pdf](https://arxiv.org/pdf/2303.09266.pdf)]
+
+26. BADGE: Speeding Up BERT Inference after Deployment via Block-wise BypAsses and DiverGence-Based Early Exiting. ACL 2023.
+
+    *Wei Zhu, Peng Wang, Yuan Ni, Guotong Xie, Xiaoling Wang*. [[pdf](https://aclanthology.org/2023.acl-industry.48/)]
 
 
 
