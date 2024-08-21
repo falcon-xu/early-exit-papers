@@ -103,10 +103,65 @@ A curated list of early exiting.
 
 
 
-
-
 ### NLP
 
+#### **for LLM**
+
+1. Confident Adaptive Language Modeling. Neurips 2022.
+
+   *Tal Schuster, Adam Fisch, Jai Gupta, Mostafa Dehghani, Dara Bahri, Vinh Q. Tran, Yi Tay, Donald Metzler.* [[pdf](https://arxiv.org/abs/2207.07061)]
+
+2. Fast and Robust Early-Exiting Framework for Autoregressive Language Models with Synchronized Parallel Decoding. EMNLP 2023.
+
+   *Sangmin Bae, Jongwoo Ko, Hwanjun Song, Se-Young Yun.* [[pdf](https://arxiv.org/abs/2310.05424)] [[code](https://github.com/raymin0223/fast_robust_early_exit)]
+
+3. SkipDecode: Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inference. arxiv 2023.
+
+   *Luciano Del Corro, Allie Del Giorno, Sahaj Agarwal, Bin Yu, Ahmed Awadallah, Subhabrata Mukherjee.* [[pdf](https://arxiv.org/abs/2307.02628)]
+
+4. Kangaroo: Lossless Self-Speculative Decoding via Double Early Exiting. arxiv 2024.
+
+   *Fangcheng Liu, Yehui Tang, Zhenhua Liu, Yunsheng Ni, Kai Han, Yunhe Wang.* [[pdf](https://arxiv.org/abs/2404.18911)] [[code](https://github.com/Equationliu/Kangaroo)]
+
+5. Layer Skip: Enabling Early Exit Inference and Self-Speculative Decoding. ACL 2024.
+
+   *Mostafa Elhoushi, Akshat Shrivastava, Diana Liskovich, Basil Hosmer, Bram Wasti, Liangzhen Lai, Anas Mahmoud, Bilge Acun, Saurabh Agarwal, Ahmed Roman, Ahmed A Aly, Beidi Chen, Carole-Jean Wu.* [[pdf](https://arxiv.org/abs/2404.16710)]
+
+6. Lossless Acceleration of Large Language Model via Adaptive N-gram Parallel Decoding. NAACL 2024.
+
+   *Jie Ou, Yueming Chen, Wenhong Tian*. [[pdf](https://arxiv.org/abs/2404.08698)] [[code](https://github.com/oujieww/anpd)]
+
+7. Accelerating Inference in Large Language Models with a Unified Layer Skipping Strategy. arxiv 2024.
+
+   *Yijin Liu, Fandong Meng, Jie Zhou*. [[pdf](https://arxiv.org/abs/2404.06954)] [[code](https://github.com/Adaxry/Unified_Layer_Skipping)]
+
+8. FFN-SkipLLM: A Hidden Gem for Autoregressive Decoding with Adaptive Feed Forward Skipping. arxiv 2024.
+
+   *Ajay Jaiswal, Bodun Hu, Lu Yin, Yeonju Ro, Shiwei Liu, Tianlong Chen, Aditya Akella*. [[pdf](https://arxiv.org/abs/2404.03865)]
+
+9. Mixture-of-Depths: Dynamically allocating compute in transformer-based language models. arxiv 2024.
+
+   *David Raposo, Sam Ritter, Blake Richards, Timothy Lillicrap, Peter Conway Humphreys, Adam Santoro*. [[pdf](https://arxiv.org/abs/2404.02258)] [[code](https://github.com/kyegomez/Mixture-of-Depths)]
+
+10. Hierarchical Skip Decoding for Efficient Autoregressive Text Generation. arxiv 2024.
+
+    *Yunqi Zhu, Xuebing Yang, Yuanyuan Wu, Wensheng Zhang*. [[pdf](https://arxiv.org/abs/2403.14919)] 
+
+11. Not All Layers of LLMs Are Necessary During Inference. arxiv 2024.
+
+    *Siqi Fan, Xin Jiang, Xiang Li, Xuying Meng, Peng Han, Shuo Shang, Aixin Sun, Yequan Wang, Zhongyuan Wang*. [[pdf](https://arxiv.org/abs/2403.02181))]
+
+12. EE-Tuning: An Economical yet Scalable Solution for Tuning Early-Exit Large Language Models. arxiv 2024.
+
+    *Xuchen Pan, Yanxi Chen, Yaliang Li, Bolin Ding, Jingren Zhou*. [[pdf](https://arxiv.org/abs/2402.00518)] [[code](https://github.com/pan-x-c/ee-llm)]
+
+13. EE-LLM: Large-Scale Training and Inference of Early-Exit Large Language Models with 3D Parallelism. ICML 2024.
+
+    *Yanxi Chen, Xuchen Pan, Yaliang Li, Bolin Ding, Jingren Zhou*. [[pdf](https://arxiv.org/abs/2312.04916)] [[code](https://github.com/pan-x-c/EE-LLM)]
+
+14. Investigating Acceleration of LLaMA Inference by Enabling Intermediate Layer Decoding via Instruction Tuning with 'LITE'. NAACL 2024
+
+    *Neeraj Varshney, Agneet Chatterjee, Mihir Parmar, Chitta Baral*. [[pdf](https://aclanthology.org/2024.findings-naacl.232/)]
 #### **Dynamic Methods**
 
 1. DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference. ACL 2020.
