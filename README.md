@@ -1,107 +1,7 @@
 # Early Exiting 
 A curated list of early exiting. 
 
-
-
 ## Paper
-
-### CV
-
-1. Conditional deep learning for energy-efficient and enhanced pattern recognition. DATE 2016
-
-   *Priyadarshini Panda, Abhronil Sengupta, and Kaushik Roy.* [[pdf](https://arxiv.org/pdf/1509.08971)]
-
-2. BranchyNet: Fast Inference via Early Exiting from Deep Neural Networks. ICPR 2016
-
-   *Surat Teerapittayanon, Bradley McDanel, and HT Kung.* [[pdf](https://arxiv.org/pdf/1709.01686)]
-
-3. Shallow-Deep Networks: Understanding and Mitigating Network Overthinking. ICML 2019
-
-   *Yigitcan Kaya, Sanghyun Hong, and Tudor Dumitras.* [[pdf](http://proceedings.mlr.press/v97/kaya19a/kaya19a.pdf)] [[code](https://github.com/yigitcankaya/Shallow-Deep-Networks)]
-
-4. Improved Techniques for Training Adaptive Deep Networks. ICCV 2019 
-
-   Hao Li, Hong Zhang, Xiaojuan Qi, Ruigang Yang, Gao Huang. [[pdf](https://arxiv.org/abs/1908.06294)] [[code](https://github.com/kalviny/IMTA)]
-
-5. HAPI: Hardware-Aware Progressive Inference. ICCAD 2020
-
-   *S. Laskaridis et al.* [[pdf](https://arxiv.org/pdf/2008.03997)]
-
-6. Edge AI: On-Demand Accelerating Deep Neural Network Inference via Edge Computing. IEEE TWC 2020
-
-   *E. Li et al.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8876870) ]
-
-7. SPINN: Synergistic Progressive Inference of Neural Networks over Device and Cloud. MobiCom 2020
-
-   *Stefanos Laskaridis et al.* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3372224.3419194) ]
-
-8. FlexDNN: Input-Adaptive On-Device Deep Learning for Efficient Mobile Vision. SEC 2020
-
-   *Biyi Fang et al.* [[pdf](https://www.egr.msu.edu/~mizhang/papers/2020_SEC_FlexDNN.pdf) ]
-
-9. Dual Dynamic Inference: Enabling more efficient, adaptive, and controllable deep inference. IEEE Journal of Selected Topics in Signal Processing, 2020
-
-   *Yue Wang et al.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9028245)]
-
-10. Learning to stop while learning to predict. ICML 2021
-
-      *Xinshi Chen, Hanjun Dai, Yu Li, Xin Gao, Le Song, Le Song*  [[pdf](https://arxiv.org/abs/2006.05082)] [[code](https://github.com/xinshi-chen/l2stop)]
-
-11. Zero Time Waste: Recycling Predictions in Early Exit Neural Networks. NeurIPS 2021
-
-    Maciej Wołczyk, Bartosz Wójcik, Klaudia Bałazy, Igor Podolak, Jacek Tabor, Marek Śmieja, Tomasz Trzciński [[pdf](https://arxiv.org/abs/2106.05409)] [[code](https://github.com/gmum/Zero-Time-Waste)]
-
-12. Self-Distillation Towards Efficient and Compact Neural Networks. TPAMI 2021
-
-    *Linfeng Zhang , Chenglong Bao, Kaisheng Ma* [[pdf](https://ieeexplore.ieee.org/document/9381661/)] [[code](https://github.com/ArchipLab-LinfengZhang/pytorch-self-distillation-final)]
-
-13. DeeCap: Dynamic Early Exiting for Efficient Image Captioning. CVPR 2022
-
-    Zhengcong Fei, Xu Yan, Shuhui Wang , Qi Tian [[pdf](https://ieeexplore.ieee.org/document/9879601/)] [[code](https://github.com/feizc/DeeCap)]
-
-14. Multi-Exit Semantic Segmentation Networks. ECCV 2022
-
-    *Alexandros Kouris, Stylianos I. Venieris, Stefanos Laskaridis, and Nicholas D. Lane.* [[pdf](https://arxiv.org/pdf/2106.03527)]
-
-15. Meta-GF: Training Dynamic-Depth Neural Networks Harmoniously. ECCV 2022
-
-    *Yi Sun, Jian Li, Xin Xu*. [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-20083-0_41)] [[code](https://github.com/SYVAE/MetaGF)]
-
-16. Single-layer vision transformers for more accurate early exits with less overhead. 2022 Neural Network. [[pdf](https://www.sciencedirect.com/science/article/pii/S0893608022002532)]
-
-17. Learning to Weight Samples for Dynamic Early-Exiting Networks. ECCV 2022
-
-    *Yizeng Han, Yifan Pu, Zihang Lai, Chaofei Wang, Shiji Song, Junfen Cao, Wenhui Huang, Chao Deng, Gao Huang* [[pdf](https://arxiv.org/pdf/2209.08310.pdf)] [[code](https://github.com/LeapLabTHU/L2W-DEN)]
-
-18. ReX: An Efficient Approach to Reducing Memory Cost in Image Classification. AAAI 2022.
-
-    *Xuwei Qian, Renlong Hang, Qingshan Liu* [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/20106/19865)]
-
-19. You Need Multiple Exiting: Dynamic Early Exiting for Accelerating Unified Vision Language Model. CVPR 2023.
-
-    *Shengkun Tang, Yaqing Wang, Zhenglun Kong, Tianchi Zhang, Yao Li, Caiwen Ding, Yanzhi Wang, Yi Liang, Dongkuan Xu* [[pdf](https://openaccess.thecvf.com/content/CVPR2023/papers/Tang_You_Need_Multiple_Exiting_Dynamic_Early_Exiting_for_Accelerating_Unified_CVPR_2023_paper.pdf)]
-
-20. Dynamic Perceiver for Efficient Visual Recognition. ICCV 2023.
-
-    *Yizeng Han, Dongchen Han, Zeyu Liu, Yulin Wang, Xuran Pan, Yifan Pu, Chao Deng, Junlan Feng, Shiji Song, Gao Huang* [[pdf](https://arxiv.org/pdf/2306.11248.pdf)] [[code](https://github.com/leaplabthu/dynamic_perceiver)]
-
-21. HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices.  MobiSys 2023.
-
-    *Seunghyeok Jeon, Yonghun Choi , Yeonwoo Cho , and Hojung Cha* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3581791.3596845)]
-
-22. LGViT: Dynamic Early Exiting for Accelerating Vision Transformer. ACM MM 2023.
-
-    *Guanyu Xu, Jiawei Hao, Li Shen, Han Hu, Yong Luo, Hui Lin, Jialie Shen* [[pdf](https://arxiv.org/abs/2308.00255)] [code]
-
-23. Boosted Dynamic Neural Networks. AAAI 2023.
-
-    *Haichao Yu, Haoxiang Li, Gang Hua, Gao Huang, Humphrey Shi* [[pdf](https://arxiv.org/abs/2211.16726)] [[code](https://github.com/SHI-Labs/Boosted-Dynamic-Networks)]
-
-24. Window-Based Early-Exit Cascades for Uncertainty Estimation: When Deep Ensembles are More Efficient than Single Models. ICCV 2023.
-
-    *Guoxuan Xia, Christos-Savvas Bouganis* [[pdf](https://arxiv.org/abs/2303.08010)] [[code](https://github.com/Guoxoug/window-early-exit)]
-
-
 
 ### NLP
 
@@ -287,6 +187,102 @@ A curated list of early exiting.
 4. A Simple Hash-Based Early Exiting Approach For Language Understanding and Generation. Findings of ACL 2022.
 
    *Tianxiang Sun, Xiangyang Liu, Wei Zhu, Zhichao Geng, Lingling Wu, Yilong He, Yuan Ni, Guotong Xie, Xuanjing Huang, Xipeng Qiu* [[pdf](https://arxiv.org/pdf/2203.01670.pdf)] [[code](https://github.com/txsun1997/HashEE)]
+
+### CV
+
+1. Conditional deep learning for energy-efficient and enhanced pattern recognition. DATE 2016
+
+   *Priyadarshini Panda, Abhronil Sengupta, and Kaushik Roy.* [[pdf](https://arxiv.org/pdf/1509.08971)]
+
+2. BranchyNet: Fast Inference via Early Exiting from Deep Neural Networks. ICPR 2016
+
+   *Surat Teerapittayanon, Bradley McDanel, and HT Kung.* [[pdf](https://arxiv.org/pdf/1709.01686)]
+
+3. Shallow-Deep Networks: Understanding and Mitigating Network Overthinking. ICML 2019
+
+   *Yigitcan Kaya, Sanghyun Hong, and Tudor Dumitras.* [[pdf](http://proceedings.mlr.press/v97/kaya19a/kaya19a.pdf)] [[code](https://github.com/yigitcankaya/Shallow-Deep-Networks)]
+
+4. Improved Techniques for Training Adaptive Deep Networks. ICCV 2019 
+
+   Hao Li, Hong Zhang, Xiaojuan Qi, Ruigang Yang, Gao Huang. [[pdf](https://arxiv.org/abs/1908.06294)] [[code](https://github.com/kalviny/IMTA)]
+
+5. HAPI: Hardware-Aware Progressive Inference. ICCAD 2020
+
+   *S. Laskaridis et al.* [[pdf](https://arxiv.org/pdf/2008.03997)]
+
+6. Edge AI: On-Demand Accelerating Deep Neural Network Inference via Edge Computing. IEEE TWC 2020
+
+   *E. Li et al.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8876870) ]
+
+7. SPINN: Synergistic Progressive Inference of Neural Networks over Device and Cloud. MobiCom 2020
+
+   *Stefanos Laskaridis et al.* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3372224.3419194) ]
+
+8. FlexDNN: Input-Adaptive On-Device Deep Learning for Efficient Mobile Vision. SEC 2020
+
+   *Biyi Fang et al.* [[pdf](https://www.egr.msu.edu/~mizhang/papers/2020_SEC_FlexDNN.pdf) ]
+
+9. Dual Dynamic Inference: Enabling more efficient, adaptive, and controllable deep inference. IEEE Journal of Selected Topics in Signal Processing, 2020
+
+   *Yue Wang et al.* [[pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9028245)]
+
+10. Learning to stop while learning to predict. ICML 2021
+
+      *Xinshi Chen, Hanjun Dai, Yu Li, Xin Gao, Le Song, Le Song*  [[pdf](https://arxiv.org/abs/2006.05082)] [[code](https://github.com/xinshi-chen/l2stop)]
+
+11. Zero Time Waste: Recycling Predictions in Early Exit Neural Networks. NeurIPS 2021
+
+    Maciej Wołczyk, Bartosz Wójcik, Klaudia Bałazy, Igor Podolak, Jacek Tabor, Marek Śmieja, Tomasz Trzciński [[pdf](https://arxiv.org/abs/2106.05409)] [[code](https://github.com/gmum/Zero-Time-Waste)]
+
+12. Self-Distillation Towards Efficient and Compact Neural Networks. TPAMI 2021
+
+    *Linfeng Zhang , Chenglong Bao, Kaisheng Ma* [[pdf](https://ieeexplore.ieee.org/document/9381661/)] [[code](https://github.com/ArchipLab-LinfengZhang/pytorch-self-distillation-final)]
+
+13. DeeCap: Dynamic Early Exiting for Efficient Image Captioning. CVPR 2022
+
+    Zhengcong Fei, Xu Yan, Shuhui Wang , Qi Tian [[pdf](https://ieeexplore.ieee.org/document/9879601/)] [[code](https://github.com/feizc/DeeCap)]
+
+14. Multi-Exit Semantic Segmentation Networks. ECCV 2022
+
+    *Alexandros Kouris, Stylianos I. Venieris, Stefanos Laskaridis, and Nicholas D. Lane.* [[pdf](https://arxiv.org/pdf/2106.03527)]
+
+15. Meta-GF: Training Dynamic-Depth Neural Networks Harmoniously. ECCV 2022
+
+    *Yi Sun, Jian Li, Xin Xu*. [[pdf](https://link.springer.com/chapter/10.1007/978-3-031-20083-0_41)] [[code](https://github.com/SYVAE/MetaGF)]
+
+16. Single-layer vision transformers for more accurate early exits with less overhead. 2022 Neural Network. [[pdf](https://www.sciencedirect.com/science/article/pii/S0893608022002532)]
+
+17. Learning to Weight Samples for Dynamic Early-Exiting Networks. ECCV 2022
+
+    *Yizeng Han, Yifan Pu, Zihang Lai, Chaofei Wang, Shiji Song, Junfen Cao, Wenhui Huang, Chao Deng, Gao Huang* [[pdf](https://arxiv.org/pdf/2209.08310.pdf)] [[code](https://github.com/LeapLabTHU/L2W-DEN)]
+
+18. ReX: An Efficient Approach to Reducing Memory Cost in Image Classification. AAAI 2022.
+
+    *Xuwei Qian, Renlong Hang, Qingshan Liu* [[pdf](https://ojs.aaai.org/index.php/AAAI/article/view/20106/19865)]
+
+19. You Need Multiple Exiting: Dynamic Early Exiting for Accelerating Unified Vision Language Model. CVPR 2023.
+
+    *Shengkun Tang, Yaqing Wang, Zhenglun Kong, Tianchi Zhang, Yao Li, Caiwen Ding, Yanzhi Wang, Yi Liang, Dongkuan Xu* [[pdf](https://openaccess.thecvf.com/content/CVPR2023/papers/Tang_You_Need_Multiple_Exiting_Dynamic_Early_Exiting_for_Accelerating_Unified_CVPR_2023_paper.pdf)]
+
+20. Dynamic Perceiver for Efficient Visual Recognition. ICCV 2023.
+
+    *Yizeng Han, Dongchen Han, Zeyu Liu, Yulin Wang, Xuran Pan, Yifan Pu, Chao Deng, Junlan Feng, Shiji Song, Gao Huang* [[pdf](https://arxiv.org/pdf/2306.11248.pdf)] [[code](https://github.com/leaplabthu/dynamic_perceiver)]
+
+21. HarvNet: Resource-Optimized Operation of Multi-Exit Deep Neural Networks on Energy Harvesting Devices.  MobiSys 2023.
+
+    *Seunghyeok Jeon, Yonghun Choi , Yeonwoo Cho , and Hojung Cha* [[pdf](https://dl.acm.org/doi/pdf/10.1145/3581791.3596845)]
+
+22. LGViT: Dynamic Early Exiting for Accelerating Vision Transformer. ACM MM 2023.
+
+    *Guanyu Xu, Jiawei Hao, Li Shen, Han Hu, Yong Luo, Hui Lin, Jialie Shen* [[pdf](https://arxiv.org/abs/2308.00255)] [code]
+
+23. Boosted Dynamic Neural Networks. AAAI 2023.
+
+    *Haichao Yu, Haoxiang Li, Gang Hua, Gao Huang, Humphrey Shi* [[pdf](https://arxiv.org/abs/2211.16726)] [[code](https://github.com/SHI-Labs/Boosted-Dynamic-Networks)]
+
+24. Window-Based Early-Exit Cascades for Uncertainty Estimation: When Deep Ensembles are More Efficient than Single Models. ICCV 2023.
+
+    *Guoxuan Xia, Christos-Savvas Bouganis* [[pdf](https://arxiv.org/abs/2303.08010)] [[code](https://github.com/Guoxoug/window-early-exit)]
 
 
 
